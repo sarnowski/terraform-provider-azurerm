@@ -295,7 +295,7 @@ func resourceArmApiManagementService() *schema.Resource {
 							Type:     schema.TypeList,
 							Optional: true,
 							Elem: &schema.Resource{
-								Schema: apiManagementResourceHostnameSchema("developer_portal"),
+								Schema: apiManagementResourceHostnameSchema(),
 							},
 						},
 						"proxy": {
